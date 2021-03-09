@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        width: 250px;
+        padding: 3px;
+        img{
+            width: 100%;            
+        }
+    }
+    &__official {       
+        font-weight: 500;
+        font-size: 12px;        
+        color: #FFFFFF;
+        text-align: center;
+        padding: 3px;
+        span {
+            display: block;
+            font-size: 18px;
+        }
+    }
+    &__phone {
+        display:block;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    &__contacts {
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
