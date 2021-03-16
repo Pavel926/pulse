@@ -1,0 +1,38 @@
+.reviews
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+    .reviews_customer {
+        display: flex;
+        margin-top: 60px;
+        &_text {
+            width: 676px;
+            margin-left: 60px;
+            &_name {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 18px;
+                color: #0D0D0D;
+            }
+            span {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;                    
+                color: #646464;
+            }
+            &_descr {
+                margin-top: 10px;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 22px;                
+                color: #0D0D0D;
+            }
+            
+        }
+    }
